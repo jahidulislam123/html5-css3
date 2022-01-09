@@ -35,7 +35,7 @@ h1 {
     height: 200px;
 }
 
-a {
+.a1 {
     border: 2px solid black;
     padding: 23px;
     margin: 23px;
@@ -46,11 +46,34 @@ img {
     height: 200px;
 }
 
-span {
+.span1 {
     border: 2px solid black;
     width: 34px;
     height: 23px;
     padding: 23px;
     margin-bottom: 23px;
     margin-left: 23px;
+}
+
+/* inline-block-inlineblock */
+.moric1 {
+    border: 2px solid hotpink;
+    background-color: crimson;
+    display: inline;
+
+}
+
+div {
+    background-color: darkorange;
+}
+
+.a2 {
+    display: block;
+    height: 34px;
+}
+
+.a3 {
+    display: inline-block;
+    height: 100px;
+    width: 200px;
 }
