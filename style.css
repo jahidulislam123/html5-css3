@@ -77,3 +77,52 @@ div {
     height: 100px;
     width: 200px;
 }
+
+/* box-model */
+.box-model {
+
+    border-image: transparent;
+    border-image: url(show-off/border.png) round;
+    border-image-slice: 30%;
+    padding: 34px;
+    margin: 45px;
+
+
+}
+
+.mira:focus {
+    color: red;
+    font-weight: 700;
+}
+
+.hovi1:hover {
+    color: rebeccapurple;
+    background-color: sandybrown;
+    padding: 23px;
+}
+
+a:visited {
+    color: red;
+}
+
+.before-after::before {
+    content: 'tomi amar';
+    background-color: red;
+}
+
+.before-after::after {
+    content: 'se ki janena ';
+    color: red;
+}
+
+.before-after:first-child {
+    color: indigo;
+}
+
+.before-after:nth-child(1) {
+    color: green;
+}
+
+#id li p :last-child {
+    color: lightblue;
+}
